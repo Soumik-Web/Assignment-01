@@ -112,6 +112,9 @@ main{
     align-items: start;
 }
 
+#middle-reason{
+    gap: 25px;
+}
 .reason-details{
     text-align: left;
     max-width: 477px;
@@ -120,6 +123,7 @@ main{
 
 .reason-title{
     font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
     font-weight: 700;
     line-height: 36px;
 }
@@ -135,6 +139,8 @@ main{
     font-weight: 600;
     padding: 12px 20px;
     background-color: white;
+    color: rgba(13, 19, 33, 0.7);
+    border-color: rgba(13, 19, 33, 0.608);
     cursor: pointer;
 }
 
@@ -200,6 +206,7 @@ main{
 
 .skill-name{
     font-size: 24px;
+    margin-top: 20px;
     line-height: 36px;
     font-weight: 800;
 }
@@ -238,7 +245,8 @@ main{
 .feedback-banner{
     margin-top: 49px;
     border-radius: 16px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.519), rgba(0, 0, 0, 0.479)), url(../assets/handshake.jpg);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.519), rgba(0, 0, 0, 0.771)), url(../assets/handshake.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 64px 205px;
@@ -265,6 +273,7 @@ main{
     justify-content: center;
     /* align-items: center; */
     gap: 16px;
+    margin-bottom: 25px;
 }
 
 .feedback-input>input[type=text]{
@@ -279,4 +288,24 @@ main{
     width: 120px;
     border-radius: 8px;
     font-weight: 600;
+}
+
+/* style footer */
+
+.footer-contain{
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    margin-top: 80px;
+    padding: 32px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-list{
+    display: flex;
+    gap: 24px;
 }
