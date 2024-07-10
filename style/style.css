@@ -149,6 +149,7 @@ main{
     text-decoration: none;
     color: rgba(13, 19, 33, 0.7);
     font-weight: 600;
+
 }
 .learn-more {
     padding: 12px 20px;
@@ -192,7 +193,7 @@ main{
 .ct-skill-cards{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 20px;
     gap: 30px;
     text-align: left;
