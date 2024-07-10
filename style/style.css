@@ -108,6 +108,7 @@ main{
 } */
 .reasons{
     display: block;
+    padding-bottom: 80px;
 }
 
 .reason{
