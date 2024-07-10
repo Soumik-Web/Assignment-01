@@ -6,6 +6,7 @@
     font-weight: normal;
     font-style: normal;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .shared-title{
@@ -21,6 +22,7 @@
     margin-bottom: 0px;
     padding: 0 60px;
     line-height: 26px;
+    color: rgba(13, 19, 33, 0.727);
 }
 /* Header Styles */
 
@@ -142,13 +144,15 @@ main{
     line-height: 26px;
     margin: 26px 0;
 }
-
-.learn-more{
+.path-button{
     font-size: 20px;
+    text-decoration: none;
+    color: rgba(13, 19, 33, 0.7);
     font-weight: 600;
+}
+.learn-more {
     padding: 12px 20px;
     background-color: white;
-    color: rgba(13, 19, 33, 0.7);
     border-color: rgba(13, 19, 33, 0.608);
     cursor: pointer;
 }
@@ -317,8 +321,4 @@ main{
 .contact-list{
     display: flex;
     gap: 24px;
-}
-
-html {
-    scroll-behavior: smooth;
 }
